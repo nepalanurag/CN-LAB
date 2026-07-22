@@ -22,5 +22,5 @@ total_sz+=pktsize
 }
 END{
 	print time,(tcp_sz*8/1000000)
-	print time,(Cbr_sz*8/1000000),(total_sz*8/1000000)
+	print time,(cbr_sz*8/1000000),(total_sz*8/1000000)
 }
